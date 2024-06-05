@@ -8,11 +8,13 @@ spec:
     matchLabels:
       app: nginx
       stage: local2
+      new: new
   template:
     metadata:
       labels:
         app: nginx
         stage: local2
+        new: new
     spec:
       containers:
       - name: nginx
