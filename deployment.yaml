@@ -7,10 +7,12 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      stage: local
   template:
     metadata:
       labels:
         app: nginx
+        stage: local
     spec:
       containers:
       - name: nginx
