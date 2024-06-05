@@ -7,7 +7,6 @@ spec:
   selector:
     matchLabels:
       app: nginx
-      tier: test-1
   template:
     metadata:
       labels:
